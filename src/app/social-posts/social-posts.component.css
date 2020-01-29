@@ -1,0 +1,44 @@
+.main{
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    min-height: 100vh; 
+}
+
+
+.title {
+    color: rgb(3, 169, 244);
+    size: 10em; 
+}
+
+button {
+    border: 1px solid black; 
+    border-radius: 0.5em; 
+    margin: 1em; 
+    padding: 1em; 
+    background-color: white; 
+    width: 50%; 
+}
+
+post{
+    width:50%; 
+    display: flex;
+    justify-content: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 0.5em; 
+    background-color: white;
+    padding: 1em; 
+    margin: 1em; 
+}
+
+post-form {
+    position: fixed;
+    width: 50%; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+

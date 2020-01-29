@@ -1,0 +1,24 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+
+.post-title{
+    size: 24px
+}
+
+.post-thought{
+    size: 1em;
+}
+
+.deleted-button{
+    justify-content: flex-end;
+    align-items:flex-end ;
+    border: none;
+    background: none;
+}
+
+.material-icons{
+    color: gray; 
+}

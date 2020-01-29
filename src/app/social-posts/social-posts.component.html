@@ -1,0 +1,6 @@
+<div class="main">
+    <h1 class="title">TooSense</h1>
+    <button class="newPostForm" (click)="toggleForm()">Post your TooSense?</button>
+    <post *ngFor="let post of postList" (deleted)="onDelete($event)" [post]="post"></post>
+</div>
+<post-form *ngIf="show" (submitted)="onSubmit($event)"></post-form>

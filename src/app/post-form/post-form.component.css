@@ -1,0 +1,36 @@
+.post-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #B1DDEA; 
+    border: 1px solid black; 
+    border-radius: 0.5em;
+    padding: 1em; 
+}
+
+#form-title{
+    border: 1px solid black; 
+    border-radius: 0.5em; 
+    margin: 1em; 
+    padding: 1em;  
+    width: 90%; 
+}
+
+#form-thought{
+    border: 1px solid black; 
+    border-radius: 0.5em; 
+    margin: 1em; 
+    padding: 1em; 
+    width: 90%; 
+    height: 200px;
+}
+
+.form-button{
+    border: 1px solid black; 
+    border-radius: 0.5em; 
+    background-color: white;
+    margin: 1em; 
+    padding: 1em; 
+    width: 90%; 
+}
